@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  max-width: 1280px !important;
+}
+
+
+h2.contato{
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+form{
+  width: 100%;
+}
+
+.form-group{
+  align-content: center;
+}
+
+/*Line*/
+.line-titulo{
+  max-width: 1400px;
+  margin:0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.ln1{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top:20px;
+  background:black;
+}
+
+.line-titulo h2{
+  position: relative;
+  background: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 27px;
+  padding:0 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+/*Visita*/
+.visita{
+  width: 100%;
+  padding-top: 40px;
+}
+
+.info{
+  padding: 60px 100px;
+}
+
+.info h2{
+  font-size: 36px;
+}
+.info h2:last-of-type{
+  font-size: 30px;
+ margin-bottom: 25px;
+}
+
+.info p{
+  font-size: 20px;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:400px;
+  width:500px;
+  position:absolute;
+
+}

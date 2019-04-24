@@ -5,7 +5,7 @@
 	<title>Rádio Juazeiro</title>
 
 	<!--Bootstrap-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 	<!--Fonts-->
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -16,7 +16,7 @@
 	<!--SEO-->
 	<meta name="autor" content="Mateus, Evandro, Rafael" />
 	<meta name="description" content="A Rádio Juazeiro está localizada em Juazeiro" />
-	<meta name="keywords" content="Rádio, Notícias, Juazeiro " />
+	<meta name="keywords" content="Rádio, Notícias, Juazeiro"/>
 
 	<style>
 	.bd-placeholder-img {
@@ -37,32 +37,10 @@
 </head>
 <body>
 	<main>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="#">RJ TV</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
 
-				<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-					<ul class="navbar-nav ml-auto"> 
-						<li class="hidden-md"><a  class="nav-link" href="#"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
-						<li><a  class="nav-link" href="#"><i class="fa fa-play fa-fw"></i>&nbsp;Músicas</a></li>
-						<li class="has-dropdown">
-							<a  class="nav-link" href="#"><i class="fa fa-headphones fa-fw"></i>&nbsp;Rádios Online<i class="fa fa-angle-down fa-fw"></i></a>
-						</li>
-						<li><a  class="nav-link" href="#"><i class="fa fa-futbol-o fa-fw"></i>&nbsp;Futebol</a></li>
-
-						<li class="login">
-							<a  class="nav-link" href="#" class="acao-entrar"><i class="fa fa-lock fa-fw"></i>&nbsp;Login</a>
-						</li>
-					</ul>
-				</div>
-			</div><!--container-->
-		</nav>
-
-
-
+		<?php
+			include('include/header.php');
+		?>
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -185,29 +163,20 @@
 
 	  		</div><!-- /.container -->
 
-	  		<!-- FOOTER -->
-	  		<footer class="container">
-	  			<p class="float-right"><a href="#">Voltar ao topo</a></p>
-	  			<p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-	  		</footer>
+	  		<?php
+	  			include('include/footer.php');
+	  		?>
 
 	  	</main>
-
-
-
-
-
-
-
-
 
 
 
 	  	<script type="text/javascript" src="js/jquery.js"></script>
 	  	<script src="js/functions.js"></script>
 
-	  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	  	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnv7y3NuVB3H7-6XXXbtFUYOsvWql_d-8&"></script>
+	  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	  	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	  </body>
 	  </html>	
