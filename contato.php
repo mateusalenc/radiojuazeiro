@@ -10,6 +10,7 @@
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="http://www.radiojuazeiro.com.br/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/style-contato.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!--SEO-->
 	<meta name="autor" content="Mateus, Evandro, Rafael" />
@@ -18,7 +19,7 @@
 </head>
 <body>
 	<?php
-	include('include/header.php');
+		include('include/header.php');
 	?>
 
 	<div class="container" >
