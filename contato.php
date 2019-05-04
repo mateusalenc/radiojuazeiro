@@ -81,6 +81,10 @@
 			</div>
 		</div>
 	</div>
+	</div>
+
+	<hr class="featurette-divider">
+
 
 	<?php
 	include('include/footer.php');

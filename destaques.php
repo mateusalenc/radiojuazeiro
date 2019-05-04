@@ -98,6 +98,10 @@
 			</div>
 		</div>
 	</div>
+	<hr class="featurette-divider">
+	<?php
+	include('include/footer.php');
+	?>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script src="js/functions.js"></script>
 
