@@ -17,29 +17,32 @@
 	<meta name="autor" content="Mateus, Evandro, Rafael" />
 	<meta name="description" content="A Rádio Juazeiro está localizada em Juazeiro" />
 	<meta name="keywords" content="Rádio, Notícias, Juazeiro"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
 	<style>
-	.bd-placeholder-img {
-		font-size: 1.125rem;
-		text-anchor: middle;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-	}
-
-	@media (min-width: 768px) {
-		.bd-placeholder-img-lg {
-			font-size: 3.5rem;
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
 		}
-	}
-</style>
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
 </head>
 <body>
 	<main>
 
 		<?php
-			include('include/header.php');
+		include('include/header.php');
 		?>
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -164,7 +167,7 @@
 	  		</div><!-- /.container -->
 
 	  		<?php
-	  			include('include/footer.php');
+	  		include('include/footer.php');
 	  		?>
 
 	  	</main>

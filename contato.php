@@ -16,10 +16,13 @@
 	<meta name="autor" content="Mateus, Evandro, Rafael" />
 	<meta name="description" content="A Rádio Juazeiro está localizada em Juazeiro" />
 	<meta name="keywords" content="Rádio, Notícias, Juazeiro"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
 </head>
 <body>
 	<?php
-		include('include/header.php');
+	include('include/header.php');
 	?>
 
 	<div class="container" >
@@ -80,20 +83,18 @@
 				</div>
 			</div>
 		</div>
+		<hr class="featurette-divider">
 	</div>
-	</div>
-
-	<hr class="featurette-divider">
-
 
 	<?php
 	include('include/footer.php');
 	?>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script src="js/functions.js"></script>
+</main>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/functions.js"></script>
 
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
