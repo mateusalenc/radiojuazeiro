@@ -22,6 +22,8 @@
 	<meta name="author" content="">
 
 	<style>
+
+		
 		.bd-placeholder-img {
 			font-size: 1.125rem;
 			text-anchor: middle;
@@ -41,9 +43,14 @@
 <body>
 	<main>
 
+		<!--NAV BAR-->
+
 		<?php
 		include('include/header.php');
 		?>
+
+		<!--NAV BAR-->
+		
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -166,10 +173,12 @@
 
 	  		</div><!-- /.container -->
 
+	  		<!--footer-->
 	  		<?php
 	  		include('include/footer.php');
 	  		?>
 
+	  		<!--footer-->
 	  	</main>
 
 

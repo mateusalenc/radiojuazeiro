@@ -6,13 +6,16 @@
 
 html,body{
   height: 100%;
+   color:  00FFFF;
 }
+
 
 .container{
   width: 100%;
   max-width: 1280px;
   margin:0 auto;
   padding: 0 2%;
+
 }
 
 .h2{

@@ -26,17 +26,19 @@
 </head>
 <body>
   <main >
+
+    <!--NAV BAR-->
     <?php
     include('include/header.php');
     ?>
+
+    <!--   -->
 
     <div class="h2">
       Destaques
     </div>
     <br>
-    <div class="line-titulo">
-      <div class="ln1"></div>
-    </div><!--line-titulo-->
+    
 
     <div class="album py-5 bg-light">
       <div class="container">
@@ -123,9 +125,13 @@
   </main>
   <hr class="featurette-divider">
 
+  <!--footer-->
+
   <?php
   include('include/footer.php');
   ?>
+  <!--footer-->
+
 </div>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="js/functions.js"></script>

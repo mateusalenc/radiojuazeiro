@@ -20,11 +20,12 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 </head>
-<body>
+	<!--NAV BAR-->
+	<body>
 	<?php
 	include('include/header.php');
 	?>
-
+	<!---->
 	<div class="container" >
 		<div class="line-titulo" style="margin-top: 130px; margin-bottom: 50px;">
 			<div class="ln1"></div>
@@ -86,9 +87,13 @@
 		<hr class="featurette-divider">
 	</div>
 
+	<!--footer-->
+	
 	<?php
 	include('include/footer.php');
 	?>
+
+	<!--footer-->
 </main>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script src="js/functions.js"></script>
