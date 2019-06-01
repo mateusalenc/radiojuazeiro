@@ -19,9 +19,12 @@ html,body{
 }
 
 .h2{
-	margin-top: 100px;
 	text-align: center;
 	font-size: 33px;
+}
+
+h2{
+  padding-bottom: 20px;
 }
 
 .line-titulo{
@@ -39,9 +42,22 @@ html,body{
   background: #ccc;
 }
 
-.card-deck{
-	cursor: pointer;
-	padding-top: 80px;
-	margin: 0 auto;
+.card-group{
+  margin-bottom: 30px;
+}
 
+.card{
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+h5{
+  font-size: 26px;
+}
+
+@media screen and (max-width: 768px){
+  .card{
+  margin-right: 5px;
+
+}
 }
