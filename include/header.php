@@ -14,7 +14,7 @@
 							<a  class="nav-link" href="destaques.php"><i class="fa fa-play fa-fw"></i>&nbsp;Destaques</a>
 						</li>
 						<li>
-							<a  class="nav-link" href="Rádios-Online.php"><i class="fa fa-headphones fa-fw"></i>&nbsp;Rádios Online</a>
+							<a  class="nav-link" href="radio.php"><i class="fa fa-headphones fa-fw"></i>&nbsp;Rádios Online</a>
 						</li>
 						<li>
 							<a  class="nav-link" href="contato.php"><i class="fa fa-futbol-o fa-fw"></i>&nbsp;Contato</a>
