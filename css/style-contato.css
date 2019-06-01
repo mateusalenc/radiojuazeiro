@@ -6,14 +6,20 @@
 
 html,body{
   height: 100%;
+   color:  00FFFF;
 }
-.clear{
-  clear: both;
-}
+
 
 .container{
   width: 100%;
   max-width: 1280px;
+  margin:0 auto;
+  padding: 0 2%;
+
+}
+
+.clear{
+  clear: both;
 }
 
 .atalhos{
@@ -28,6 +34,7 @@ html,body{
 .venha_visitar{
   margin-top: 50px;
 }
+
 form{
   width: 100%;
 }
@@ -36,9 +43,6 @@ form{
   align-content: center;
 }
 
-input[class=form-control]{
-  
-}
 
 /*Line*/
 .line-titulo{
@@ -103,6 +107,7 @@ input[class=form-control]{
   width:100%;
   position:absolute;
 }
+
 
 @media screen and (max-width: 1024px) {
 
