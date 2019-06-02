@@ -45,16 +45,22 @@
     margin-top: 30px; 
 }
 
+.card-inner{
+    margin-left: 4rem;
+}
+
 .col-lg-4 {
   margin-right
 }
-.content-media--video {
+
+.content-media-video {
    background-color: #ddd;
    display: block;
    position: relative;
    padding: 0 0 56.25% 0;
 }
-.content-media--video iframe {
+
+.content-media-video iframe {
   position: absolute;
     bottom: 0;
     left: 0;
@@ -65,3 +71,5 @@
 .body{
      color:  00FFFF;
 }
+
+

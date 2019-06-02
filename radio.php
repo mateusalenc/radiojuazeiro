@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
 
 	<title>Rádio Juazeiro</title>
@@ -35,18 +35,24 @@
 		<?php
 		include('include/header.php');
 		?>
-
+		<section class="ancora">
+			<div class="atalhos">
+				<ul>
+					<li><a href="#aovivo" accesskey="1">Ir Conteudo[0]</a></li>
+				</ul>
+			</div>
+		</section>
 		<!-- Container -->
 
-		<div class="container">
-			<div class="Container-hender">
+		<div class="container video">
+			<div class="container-hender ">
 				<div class="row">
 					<div class="col-sm-9">
-						<div class="line-titulo"><h2 alt="radio ao vivo agora">Ao vivo agora</h2></div>
+						<div class="line-titulo"><h1 alt="radio ao vivo agora">Ao vivo agora</h1></div>
 						<!--video-->
 
-						<div class="content-media content-media--video">
-							<iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+						<div class="content-media content-media-video">
+							<iframe  id="aovivo" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
 							</iframe>
 						</div>
 						<h2 class="title style-scope" alt="Chasing Deams">Chasing Dreams</></h2>
@@ -54,110 +60,139 @@
 						<!--video-->
 
 						<hr class="featurette-divider">
-						<ul>
+						<div class="container">
+							<h2 class="text-left">Comentários</h2>
 
-							<h2>** RÁDIOS DA REGIÃO DO CARIRI **</h2>
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-2">
+											<img src="https://image.ibb.co/jw55Ex/def_face.jpg" alt="Comentário de Alfredo Prazeirozo Texugueiro" class="img img-rounded img-fluid"/>
+											<p class="text-secondary text-center">15 Minutes Ago</p>
+										</div>
+										<div class="col-md-10">
+											<p>
+												<a class="float-left" href=""><strong>Alfredo Prazeirozo Texugueiro</strong></a>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
 
-							<br><br><br><br>
-							<li class="recent-post">
-
-								<div class="post-img">
-									<img src="https://lh3.googleusercontent.com/-ndZJOGgvYQ4/WM1ZI8dH86I/AAAAAAAADeo/l67ZqZnRUO8QXIQi38bEXuxqHfVX0TV2gCJoC/w424-h318-n-rw/thumbnail8.jpg" class="img-responsive">
+											</p>
+											<div class="clearfix"></div>
+											<p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<p>
+												<a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
+												<a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
+											</p>
+										</div>
+									</div>
 								</div>
-								<a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-								<p><small><i class="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-							</li>
-							<hr>
+							</div>
 
-							<li class="recent-post">
-								<div class="post-img">
-									<img src="https://lh3.googleusercontent.com/-ojLI116-Mxk/WM1ZIwdnuwI/AAAAAAAADeo/4K6VpwIPSfgsmlXJB5o0N8scuI3iW4OpwCJoC/w424-h318-n-rw/thumbnail6.jpg" class="img-responsive">
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-2">
+											<img src="https://image.ibb.co/jw55Ex/def_face.jpg" alt="Comentário de Aberta Demais De Oliveira" class="img img-rounded img-fluid"/>
+											<p class="text-secondary text-center">15 Minutes Ago</p>
+										</div>
+										<div class="col-md-10">
+											<p>
+												<a class="float-left" href=""><strong>Aberta Demais De Oliveira</strong></a>
+												<span class="float-right" href=""><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+
+											</p>
+											<div class="clearfix"></div>
+											<p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<p>
+												<a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
+												<a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
+											</p>
+										</div>
+									</div>
 								</div>
-								<a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-								<p><small><i class="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-							</li>
-							<hr>
-
-							<li class="recent-post">
-								<div class="post-img">
-									<img src="https://lh3.googleusercontent.com/-TrK1csbtHRs/WM1ZI1SIUNI/AAAAAAAADeo/OkiUjuad6skWl9ugxbiIA_436OwsWKBNgCJoC/w424-h318-n-rw/thumbnail3.jpg" class="img-responsive">
+							</div>
+							<div class="card">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-2">
+											<img src="https://image.ibb.co/jw55Ex/def_face.jpg" alt="Comentário de Aberta Demais De Oliveira" class="img img-rounded img-fluid"/>
+											<p class="text-secondary text-center">15 Minutes Ago</p>
+										</div>
+										<div class="col-md-10">
+											<p>
+												<a class="float-left" href=""><strong>Aberta Demais De Oliveira</strong></a>
+												<span class="float-right" href=""><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+												<span class="float-right"><i class="text-warning fa fa-star"></i></span>
+											</p>
+											<div class="clearfix"></div>
+											<p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+											<p>
+												<a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Reply</a>
+												<a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Like</a>
+											</p>
+										</div>
+									</div>
 								</div>
-								<a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-								<p><small><i class="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-							</li>
-							<hr>
-
-							<li class="recent-post">
-								<div class="post-img">
-									<img src="https://lh3.googleusercontent.com/-UKfIhJSBW9M/WM1ZI8ou34I/AAAAAAAADeo/vlLGY29147AYLaxUW29ZXJlun115BhkhgCJoC/w424-h318-n-rw/thumbnail7.jpg" class="img-responsive">
-								</div>
-								<a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-								<p><small><i class="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-							</li>
-						</ul>
-
+							</div>
+						</div>
 					</div>
 
-					<div class="col-sm-3">
-						<div class="line-titulo"><h2>MUSIC VIDEO</h2></div>
-
-						<div >
+					<div class="col-sm-3 videos">
+						<div class="line-titulo"><h2>Videos</h2></div>
+						<div>
 							
 							<div class="embed-responsive embed-responsive-16by9">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 							</div>
-							<h5>
-								fala
-							</h5>
+							<h2 class="h5">
+								Empurrei minha avó da escada rolante olha no que deu
+							</h2>
+							<p>2 days ago</p>
 						</div>
 
-						<h2>MUSIC VIDEO</h2>
-
-						<div >
+						<div>
 
 							<div class="embed-responsive embed-responsive-16by9">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 							</div>
-							<h5>
-								fala
-							</h5>
-					</div>
+							<h2 class="h5">
+								Empurrei minha avó da escada rolante olha no que deu
+							</h2>
+							<p>4 days ago</p>
+						</div>
 
-					<h2>MUSIC VIDEO</h2>
-
-					<div >
-
-					<div class="embed-responsive embed-responsive-16by9">
+						<div>
+							<div class="embed-responsive embed-responsive-16by9">
 								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
 							</div>
+							<h2 class="h5">
+								Empurrei minha avó da escada rolante olha no que deu
+							</h2>
+							<p>5 days ago</p>
+						</div>
+					</div>
 				</div>
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>    
-				</ul>
 			</div>
 		</div>
-	</div>
-</div>
-<!-- Container-->
+		<!-- Container-->
 
-</main>
+	</main>
 
-<!--footer-->
+	<!--footer-->
 
-<hr class="featurette-divider">
+	<hr class="featurette-divider">
 
-<?php
-include('include/footer.php');
-?>
-<!--footer-->
+	<?php
+	include('include/footer.php');
+	?>
+	<!--footer-->
 
 </div>
 <script type="text/javascript" src="js/jquery.js"></script>
@@ -166,5 +201,6 @@ include('include/footer.php');
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<noscript>O navegador não tem suporte para javascript</noscript>
 </body>
 </html>	

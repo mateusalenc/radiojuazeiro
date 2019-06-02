@@ -45,7 +45,7 @@
 		include('include/header.php');
 		?>
 		
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" >
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -56,7 +56,7 @@
 					<img class="bd-placeholder-img" src="images/Raça.jpg" alt="First slide" style="background-position: center;">
 					<div class="container">
 						<div class="carousel-caption ">
-							<h1>Raça negra</h1>
+							<h1 class="h1">Raça negra</h1>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 							<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
 						</div>
@@ -67,7 +67,7 @@
 					<img class="bd-placeholder-img" src="images/gustavo.jpg" alt="Second slide">
 					<div class="container">
 						<div class="carousel-caption text-left">
-							<h1>Gusttavo Lima</h1>
+							<h2 class="h1">Gusttavo Lima</h2>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 							<p><a class="btn btn-lg btn-primary" href="#" role="button">Mais detalhes</a></p>
 						</div>
@@ -78,7 +78,7 @@
 					<img class="bd-placeholder-img" src="images/wesley2.jpg" alt="Third slide">
 					<div class="container">
 						<div class="carousel-caption text-left">
-							<h1>Wesley safadão</h1>
+							<h2 class="h1">Wesley safadão</h2>
 							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 							<p><a class="btn btn-lg btn-primary" href="#" role="button">Mais detalhes</a></p>
 						</div>
@@ -95,11 +95,19 @@
 			</a>
 		</div>
 
+		<section class="ancora">
+			<div class="atalhos">
+				<ul>
+					<li><a href="#locutor" accesskey="1">Ir para locutores[1]</a></li>
+				</ul>
+			</div>
+		</section>
+
 	  	<!-- Marketing messaging and featurettes
 	  		================================================== -->
 
 	  		<div class="container marketing">
-	  			<div class="h1 text-center">Locutores</div>
+	  			<div class="h1 text-center" id="locutor">Locutores</div>
 	  			<!-- Three columns of text below the carousel -->
 	  			<div class="row locutores">
 	  				<div class="col-lg-4 img" id="locutores">
@@ -128,7 +136,7 @@
 
 	  		<!--footer-->
 	  		<?php
-	  		include('include/footer.php');
+	  			include('include/footer.php');
 	  		?>
 
 	  		<!--footer-->

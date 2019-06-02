@@ -34,7 +34,7 @@
     <section class="ancora">
       <div class="atalhos">
         <ul>
-          <li><a href="#noticias" accesskey="0">Ir Conteudo[0]</a></li>
+          <li><a href="#noticias" accesskey="1">Ir Conteudo[1]</a></li>
         </ul>
       </div>
     </section>
