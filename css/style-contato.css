@@ -1,23 +1,5 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,body{
-  height: 100%;
-   color:  00FFFF;
-}
-
-
-.container{
-  width: 100%;
-  max-width: 1280px;
-  margin:0 auto;
-  padding: 0 2%;
-
-}
-
+/* CLEAR
+-------------------------------------------------- */
 .clear{
   clear: both;
 }
@@ -26,6 +8,8 @@ html,body{
   padding-top: 20px;
 }
 
+/* CONTACT
+-------------------------------------------------- */
 .entre_contato{
   margin-top: 130px; 
   margin-bottom: 50px;
@@ -35,6 +19,8 @@ html,body{
   margin-top: 50px;
 }
 
+/* FORM
+-------------------------------------------------- */
 form{
   width: 100%;
 }
@@ -44,7 +30,8 @@ form{
 }
 
 
-/*Line*/
+/* LINE
+-------------------------------------------------- */
 .line-titulo{
   max-width: 1400px;
   margin:0 auto;
@@ -71,7 +58,8 @@ form{
   text-transform: uppercase;
 }
 
-/*Visita*/
+/* VISIT
+-------------------------------------------------- */
 .visita{
   width: 100%;
   padding-top: 40px;
@@ -94,6 +82,8 @@ form{
   font-size: 20px;
 }
 
+/* MAP
+-------------------------------------------------- */
 .map-container{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -108,10 +98,8 @@ form{
   position:absolute;
 }
 
-
-@media screen and (max-width: 1024px) {
-
-}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
 
 @media screen and (max-width: 950px) {
   .map-container{
@@ -127,8 +115,8 @@ form{
 
   .info{
     width: 98%;
-   text-align: center;
-   margin: auto;
- }
+    text-align: center;
+    margin: auto;
+  }
 
 }
