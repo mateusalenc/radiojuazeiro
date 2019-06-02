@@ -99,6 +99,9 @@ footer.container{
   user-select: none;
 }
 
+.h1{
+  padding-bottom: 30px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -122,11 +125,13 @@ footer.container{
     margin-top: 7rem;
   }
 
-
 }
 @media screen and (max-width: 960px){
   .row .img img {
     width: 300px;
   }
+
 }
+
+
 
