@@ -35,12 +35,6 @@
       <div class="atalhos">
         <ul>
           <li><a href="#noticias" accesskey="0">Ir Conteudo[0]</a></li>
-          <li><a href="#noticia1" accesskey="1">Ir para noticias[1]</a></li>
-          <li><a href="#noticia2" accesskey="2">Ir para noticias[2]</a></li>
-          <li><a href="#noticia3" accesskey="3">Ir para noticias[3]</a></li>
-          <li><a href="#noticia4" accesskey="4">Ir para noticias[4]</a></li>
-          <li><a href="#noticia5" accesskey="5">Ir para noticias[5]</a></li>
-          <li><a href="#noticia6" accesskey="6">Ir para noticias[6]</a></li>
         </ul>
       </div>
     </section>

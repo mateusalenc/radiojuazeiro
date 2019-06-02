@@ -31,7 +31,6 @@
 			<div class="atalhos">
 				<ul>
 					<li><a href="#ajax_form" accesskey="1">Ir Conteudo[1]</a></li>
-					<li><a href="#venha_visitar" accesskey="2">Ir para menu nosso endereço[2]</a></li>
 				</ul>
 			</div>
 		</section>
