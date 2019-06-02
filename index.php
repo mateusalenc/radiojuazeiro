@@ -103,19 +103,19 @@
 	  			<!-- Three columns of text below the carousel -->
 	  			<div class="row locutores">
 	  				<div class="col-lg-4 img" id="locutores">
-	  					<img class="bd-placeholder-img rounded-circle" src="images/wendell.jpg" alt="Wendell Bezerra">
+	  					<img class="d-block w-100 bd-placeholder-img rounded-circle" src="images/wendell.jpg" alt="Wendell Bezerra">
 	  					<h2>Wendell Bezerra</h2>
 	  					<p>Wendel Luís Bezerra da Silva é um ator, dublador, diretor de dublagem, locutor e youtuber brasileiro, na área desde os oito anos de idade. Também dirige a dublagem de séries e filmes. Tem quatro irmãos, dos quais dois também seguem a carreira de dublador, Ulisses e Úrsula Bezerra.</p>
 	  					<p><a class="btn btn-secondary" href="#" role="button">Mais detalhes &raquo;</a></p>
 	  				</div><!-- /.col-lg-4 -->
 	  				<div class="col-lg-4 img">
-	  					<img class="bd-placeholder-img rounded-circle" src="images/marcio.jpg" style="border-radius: 200px;" alt="Marcio Seixas">
+	  					<img class="d-block w-100 bd-placeholder-img rounded-circle" src="images/marcio.jpg" style="border-radius: 200px;" alt="Marcio Seixas">
 	  					<h2>Marcio Seixas</h2>
 	  					<p>Márcio Roberto Seixas é um ator, ex-dublador, locutor e radialista brasileiro. Durante mais de duas décadas foi o anunciante dos episódios das séries dubladas na Herbert Richers e locutor oficial do estúdio no Rio de Janeiro.</p>
 	  					<p><a class="btn btn-secondary" href="#" role="button">Mais detalhes &raquo;</a></p>
 	  				</div><!-- /.col-lg-4 -->
 	  				<div class="col-lg-4 img">
-	  					<img class="bd-placeholder-img rounded-circle" src="images/marco.jpg" style="border-radius: 200px;" alt="Marco Ribeiro"> 
+	  					<img class="d-block w-100 bd-placeholder-img rounded-circle" src="images/marco.jpg" style="border-radius: 200px;" alt="Marco Ribeiro"> 
 	  					<h2>Marco Ribeiro</h2>
 	  					<p>Marco Antônio Ribeiro da Silva (Rio de Janeiro, 22 de agosto de 1970) é um ator, dublador, diretor de dublagem, locutor, radialista, empresário, líder presidente da Igreja evangélica Assembléia de Deus Ministério Kairos do Rio de Janeiro e pastor evangélico brasileiro.</p>
 	  					<p><a class="btn btn-secondary" href="#" role="button">Mais detalhes &raquo;</a></p>
