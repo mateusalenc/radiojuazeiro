@@ -38,8 +38,8 @@
 						<div class="container">
 							<div class="carousel-caption ">
 								<h1 class="h1">Raça negra</h1>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+								<p>Raça Negra não é pagode, mas samba romântico, diz vocalista</p>
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Mais detalhes</a></p>
 							</div><!--carousel-caption-->
 						</div><!--container-->
 					</div><!--carousel-item-->
@@ -49,7 +49,7 @@
 						<div class="container">
 							<div class="carousel-caption text-left">
 								<h2 class="h1">Gusttavo Lima</h2>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+								<p>Gusttavo Lima não aparece em gravação de reality comandado por Luan Santana</p>
 								<p><a class="btn btn-lg btn-primary" href="#" role="button">Mais detalhes</a></p>
 							</div><!--carousel-caption-->
 						</div><!--container-->
@@ -60,7 +60,7 @@
 						<div class="container">
 							<div class="carousel-caption text-left">
 								<h2 class="h1">Wesley safadão</h2>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+								<p>Wesley Safadão assusta internautas ao surgir sem dentes no Instagram</p>
 								<p><a class="btn btn-lg btn-primary" href="#" role="button">Mais detalhes</a></p>
 							</div><!--carousel-caption-->
 						</div><!--container-->
