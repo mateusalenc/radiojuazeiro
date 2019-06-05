@@ -38,22 +38,22 @@
 						<div class="form-group">	    
 							<label for="textNome" class="control-label" >Nome</label>	    
 							<input id="textNome" class="form-control shadow-none" placeholder="Digite seu Nome..." type="text" name ="nome" alt="Digite seu nome aqui" required>	  
-							<div class="valid-feedback">Valid.</div><!--valid-feedback-->
-							<div class="invalid-feedback">Please fill out this field.</div><!--invalid-feedback-->
+							<div class="valid-feedback">Muito bom.</div><!--valid-feedback-->
+							<div class="invalid-feedback">Campo inválido</div><!--invalid-feedback-->
 						</div><!--form-group-->
 
 						<div class="form-group">	    
 							<label for="inputEmail" class="control-label">Email</label>	    
 							<input id="inputEmail" class="form-control shadow-none" placeholder="Digite seu E-mail" type="email" name ="email" alt="Digite seu e-mail aqui" required>	
-							<div class="valid-feedback">Valid.</div><!--valid-feedback-->
-							<div class="invalid-feedback">Please fill out this field.</div><!--invalid-feedback-->   
+							<div class="valid-feedback">Muito bom.</div><!--valid-feedback-->
+							<div class="invalid-feedback">Campo inválido</div><!--invalid-feedback--> 
 						</div><!--form-group-->
 
 						<div class="form-group">
 							<label for="textarea" class="control-label">Mensagem</label>	
 							<textarea class="form-control shadow-none" placeholder="Sua mensagem*" id="textarea" name="mensagem" alt="Digite sua mensagem aqui" required ></textarea>
-							<div class="valid-feedback">Valid.</div><!--valid-feedback-->
-							<div class="invalid-feedback">Please fill out this field.</div><!--invalid-feedback-->
+							<div class="valid-feedback">Muito bom.</div><!--valid-feedback-->
+							<div class="invalid-feedback">Campo inválido</div><!--invalid-feedback-->
 						</div><!--form-group-->
 
 						<div class="form-group">	    
