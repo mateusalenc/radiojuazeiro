@@ -33,7 +33,15 @@
 	height: 100%;
 }
 
+.featurette-divider{
+	position: relative;
+	top: -50px;
+}
 
+.comments{
+	position: relative;
+	top: -100px;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media screen and (max-width: 800px){

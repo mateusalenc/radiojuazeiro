@@ -39,7 +39,8 @@
 								</iframe>
 							</div><!--content-media-->
 
-							<h2 class="title style-scope" alt="Chasing Deams">Chasing Dreams</></h2>
+							<h2 class="title style-scope" alt="Chasing Deams">Bohemian Rhapsody | Muppet Music Video | The Muppets</h2>
+							<p>76.534.510 visualizações</p>
 
 							<hr class="featurette-divider"><!--featurette-divider-->
 
